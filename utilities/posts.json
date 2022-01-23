@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "tittle": "Fear of Getting Old Can Make You Age Faster",
+    "img": "/assets/age-faster.jpeg",
+    "shortDescription": "A positive perspective on aging predicts better health and longer life",
+    "date": "Sep, 23 2020"
+  },
+  {
+    "id": 2,
+    "tittle": "The Case for Staying in the Weeds",
+    "img": "/assets/weeds.jpeg",
+    "shortDescription": "Success is usually defined as having lots of people working under you — what if that’s all wrong?",
+    "date": "Jun, 03 2020"
+  },
+  {
+    "id": 3,
+    "tittle": "Why Do We Sleep? Science May Have Finally Figured It Out",
+    "img": "/assets/sleep.jfif",
+    "shortDescription": "Your brain is equipped with a waste management system that does most of its work while you slumber",
+    "date": "Jun, 03 2020"
+  },
+  {
+    "id": 4,
+    "tittle": "We Need to Follow John Lewis’ Example and Fight for Our Democracy",
+    "img": "/assets/john-lewi.jfif",
+    "shortDescription": "“Now is the time for the U.S. Senate to do the right thing…Future generations are counting on us.”",
+    "date": "Jun, 03 2020"
+  },
+  {
+    "id": 5,
+    "tittle": "If You Do One Thing Today, Let It Be Getting New Lotion",
+    "img": "assets/lotion.jpeg",
+    "shortDescription": "Lotion is a small thing, but it makes a big impact",
+    "date": "Jun, 03 2020",
+    "firstDesc": "Let’s talk about lotion.",
+    "pararaph1": " Yeah, lotion. Just, lotion. Maybe you’re thinking, “Surely she’s not talking about lotion. Maybe she has misspelled ‘potion’ or ‘notion.’ I can’t imagine that this whole post is about lotion.” But it is. In Chicago, the weather is in the single digits this week, and there is no better companion to cold cold weather than … well, than hot tea and snuggles. But after hot tea and snuggles, it’s lotion. Lotion is the most important thing you can do for yourself right now. Indeed, I’m gonna die on that hill.",
+    "pararaph2": "You don’t really need to spend a lot of money on the lotion. One of my most important lotions (MILs) cost me 79 cents. I bought it initially because I liked the size of its tin: like a round medal from a trophy shop. It felt good in my hand. But now I appreciate that it fits in the pockets of my coat. When I was waiting in line in the 15 degree cold to get my rapid Covid test a few weeks ago, I pulled the lotion out a bunch of times and rubbed it on my hands, and it made things better. Young me would have (erroneously) believed that such lotion would make things (fingers) colder, but it really doesn’t. It helps. Lotion is a small thing, but it makes a big impact. It exists to say to your hands, “You are cared for. You are worthy of attention.” And if your hands have already gotten that message, you can deliver the same one to your feet, to the back of your neck, to the tender place behind your ears, to your belly. Lotion can help you communicate with your whole body. That can be a hard thing to do, especially in January."
+  },
+  {
+    "id": 6,
+    "tittle": "Why is Empathy So Hard?",
+    "img": "assets/emphaty.jpeg",
+    "shortDescription": "Psychologists explain why people don’t want to care, while those most vulnerable to Covid plea that we would",
+    "date": "Jun, 03 2020"
+  }
+]
