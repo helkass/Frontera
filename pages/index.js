@@ -1,17 +1,23 @@
-import { Categories } from "../components/post/Categories";
-import { Content } from "../components/post/Content";
-import Card from "../components/post/Card";
-import { Layout } from "../components/post/Layout";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 import Head from "next/head";
+import Footer from "../components/Footer";
+import About from "../components/About";
+import Works from "../components/Works";
+
 export default function Home() {
   return (
-    <Layout>
-      <Head>
-        <title>Home &ndash; Frontera</title>
-      </Head>
-      <Categories />
-      <Content />
-      <Card />
-    </Layout>
+    <>
+      <div className="bg-black min-h-full text-white">
+        <Header />
+        <Head>
+          <title>Home &ndash; Frontera</title>
+        </Head>
+        <Hero />
+        <About />
+        <Works />
+        <Footer />
+      </div>
+    </>
   );
 }
