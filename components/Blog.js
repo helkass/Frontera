@@ -46,7 +46,7 @@ export default function Blog() {
         ))}
       </div>
       <div className="my-6 italic text-red-500 text-center text-sm">
-        <Link href="/posts">
+        <Link href="/post">
           <a>view more ...</a>
         </Link>
       </div>

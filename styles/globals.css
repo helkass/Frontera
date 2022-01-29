@@ -17,3 +17,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.swing {
+  animation: swing ease-in-out 3s infinite;
+}
+
+@keyframes swing {
+  0%{
+    rotate: 20deg;
+  }
+  50%{
+    rotate: -20deg;
+  }
+  75%{
+    rotate: -50deg;
+  }
+  100%{
+    rotate: 0deg;
+  }
+}

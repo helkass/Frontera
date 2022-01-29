@@ -21,7 +21,7 @@ export default function Card() {
               </a>
             </Link>
             <div className="lg:mt-4 md:mt-3">
-              <Link href="/posts">
+              <Link href="/post/1">
                 <a>
                   <tittle className="font-bold text-xl mt-5">
                     {post.tittle}
@@ -38,4 +38,15 @@ export default function Card() {
       </div>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(mockPosts);
+  const dataPost = await res.json();
+
+  return {
+    props: {
+      dataPost,
+    },
+  };
 }

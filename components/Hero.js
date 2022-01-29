@@ -44,8 +44,8 @@ export default function Hero() {
       </div>
       <div className="sm:grid-cols-6 min-h-max flex justify-center sm:flex-none">
         <img
-          className="md:w-9/12 w-4/6 object-cover translate-y-10 md:translate-x-6"
-          src="/assets/helka.svg"
+          className="swing md:w-8/12 opacity-70 w-3/6 object-cover translate-y-10 md:translate-x-6"
+          src="/assets/logo.svg"
         />
       </div>
     </div>

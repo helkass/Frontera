@@ -1,11 +1,14 @@
-import { Footer } from "../components/post/Footer";
+import { Footer } from "../../components/post/postFooter";
 import Link from "next/link";
 import Head from "next/head";
+import { useState } from "react";
+import mockposts from "../../utilities/posts.json";
+
 export default function posts() {
   return (
     <>
       <Head>
-        <title>Frontera &ndash;Post</title>
+        <title>Frontera &ndash;Detail Post</title>
       </Head>
       <Link href="/">
         <a>
