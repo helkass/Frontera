@@ -3,22 +3,27 @@ import { useState } from "react";
 export default function Works() {
   const [works, setWorks] = useState([
     {
+      id: 1,
       title: "React.Js Next.Js",
       desc: "Make website with React and Next js fullstack fullstack",
     },
     {
+      id: 2,
       title: "Fullstack with Laravel",
       desc: "Fullstack with Laravel framework and Mysql for database",
     },
     {
+      id: 3,
       title: "Wordpress Developer",
       desc: "Make beautifull website with wordpress and responsible",
     },
     {
+      id: 4,
       title: "Designing with figma",
       desc: "Unique and beautiful UI/UX",
     },
     {
+      id: 5,
       title: "Vue Js",
       desc: "Front end web application with Vue js",
     },
@@ -34,7 +39,10 @@ export default function Works() {
           <div className="flex md:mt-12 mt-8">
             <div className="grid grid-cols-2 mx-3 sm:mx-0 sm:grid-cols-3 items-center gap-5">
               {works.map((work) => (
-                <div className="bg-neutral-900 text-center text-white rounded-br-[30px] rounded-tl-[30px] group overflow-hidden shadow-3d">
+                <div
+                  key={work.id}
+                  className="bg-neutral-900 text-center text-white rounded-br-[30px] rounded-tl-[30px] group overflow-hidden shadow-3d"
+                >
                   <div className="w-full h-28 text-xl py-9">
                     <p className=" mx-auto tracking-wide">{work.title}</p>
                   </div>

@@ -30,7 +30,7 @@ export default function About() {
             About me
           </h3>
           <p className="md:mb-20">
-            I'm Helka NIM 18.11.2469 class 19 S1IF 03, I'm a student at the
+            Im Helka NIM 18.11.2469 class 19 S1IF 03, Im a student at the
             University of Amikom Yogyakarta and I majored in informatics and
             focused on web development and design. I come from Tuban Indonesia.
             my goal is to become an expert in web development

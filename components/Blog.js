@@ -4,18 +4,21 @@ import { useState } from "react";
 export default function Blog() {
   const [blogs, setBlogs] = useState([
     {
+      id: 1,
       title: "Fear of Getting Old Can Make You Age Faster",
       img: "/assets/age-faster.jpeg",
       desc: "A positive perspective on aging predicts better health and longer life",
       date: "Sep, 23 2020",
     },
     {
+      id: 2,
       title: "The Case for Staying in the Weeds",
       img: "/assets/weeds.jpeg",
       desc: "Success is usually defined as having lots of people working under you — what if that’s all wrong?",
       date: "Jun, 03 2020",
     },
     {
+      id: 3,
       title: "Why Do We Sleep? Science May Have Finally Figured It Out",
       img: "/assets/sleep.jfif",
       desc: "Your brain is equipped with a waste management system that does most of its work while you slumber",
@@ -30,7 +33,10 @@ export default function Blog() {
       </div>
       <div className="grid md:grid-cols-3 md:mx-2 mx-0 sm:grid-cols-2 lg:gap-8 gap-3">
         {blogs.map((blog) => (
-          <div className="bg-neutral-800 min-h-max shadow-sm shadow-red-800 rounded-md mx-4 items-center group overflow-hidden">
+          <div
+            key={blog.id}
+            className="bg-neutral-800 min-h-max shadow-sm shadow-red-800 rounded-md mx-4 items-center group overflow-hidden"
+          >
             <img
               className="h-3/6 object-cover w-5/12 sm:w-full m-3 sm:m-0"
               src={blog.img}

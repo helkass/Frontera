@@ -10,9 +10,9 @@ export default function Hero() {
     <div className="container sm:grid mx-auto sm:grid-cols-2 min-h-max sm:flex-none flex flex-col-reverse">
       <div className="sm:grid-cols-6 z-10 ml-4 sm:ml-0 mt-20 sm:mt-0">
         <div className="md:translate-y-40 text-center sm:translate-y-36 ml-2 sm:text-left">
-          <h2 className="uppercase text-xl mb-3">hello i'am helka</h2>
+          <h2 className="uppercase text-xl mb-3">hello i am helka</h2>
           <h1 className="uppercase font-semibold lg:text-3xl text-2xl">
-            i'am web developer
+            i am web developer
           </h1>
         </div>
         <div className="flex mt-12 justify-center sm:justify-start sm:translate-y-44 md:translate-y-52 border-none lg:border-l-2 border-red-700 lg:py-5 sm:py-3 py-1 px-1 sm:px-2">

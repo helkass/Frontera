@@ -9,20 +9,17 @@ export default function Contact() {
           <div className="lg:p-5 sm:p-3 p-2 grid-cols-1 grid border-red-700 border-2 items-center md:ml-4 mx-5 mb-12 gap-5 relative">
             <input
               className="px-3 bg-neutral-800 outline-none h-12 max-w-sm required:border-red-500 rounded-sm"
-              for="name"
               id="name"
               placeholder="Name"
             ></input>
             <input
               className="px-3 bg-neutral-800 outline-none h-12 max-w-sm required:border-red-500 rounded-sm"
-              for="name"
               id="name"
               type="email"
               placeholder="Email"
             ></input>
             <textarea
               className="px-3 bg-neutral-800 outline-none h-24 max-w-sm required:border-red-500 rounded-sm mb-12"
-              for="name"
               id="name"
               type="text-area"
               placeholder="Somethings here.."
