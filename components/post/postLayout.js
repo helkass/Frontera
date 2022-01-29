@@ -1,5 +1,5 @@
-import { Header } from "./Header";
-import { Footer } from "./Footer";
+import { Header } from "./postHeader";
+import { Footer } from "./postFooter";
 
 export const Layout = ({ children }) => {
   return (

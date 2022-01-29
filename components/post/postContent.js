@@ -1,4 +1,4 @@
-import { Features } from "./Features";
+import { Features } from "./postFeatures";
 
 export const Content = () => {
   return (

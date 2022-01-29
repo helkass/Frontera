@@ -1,7 +1,7 @@
-import { Categories } from "../components/post/Categories";
-import { Content } from "../components/post/Content";
-import Card from "../components/post/Card";
-import { Layout } from "../components/post/Layout";
+import { Categories } from "../components/post/postCategories";
+import { Content } from "../components/post/postContent";
+import Card from "../components/post/postCard";
+import { Layout } from "../components/post/postLayout";
 import Head from "next/head";
 export default function Post() {
   return (
