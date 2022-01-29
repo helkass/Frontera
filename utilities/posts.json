@@ -1,35 +1,35 @@
 [
   {
     "id": 1,
-    "tittle": "Fear of Getting Old Can Make You Age Faster",
+    "title": "Fear of Getting Old Can Make You Age Faster",
     "img": "/assets/age-faster.jpeg",
     "shortDescription": "A positive perspective on aging predicts better health and longer life",
     "date": "Sep, 23 2020"
   },
   {
     "id": 2,
-    "tittle": "The Case for Staying in the Weeds",
+    "title": "The Case for Staying in the Weeds",
     "img": "/assets/weeds.jpeg",
     "shortDescription": "Success is usually defined as having lots of people working under you — what if that’s all wrong?",
     "date": "Jun, 03 2020"
   },
   {
     "id": 3,
-    "tittle": "Why Do We Sleep? Science May Have Finally Figured It Out",
+    "title": "Why Do We Sleep? Science May Have Finally Figured It Out",
     "img": "/assets/sleep.jfif",
     "shortDescription": "Your brain is equipped with a waste management system that does most of its work while you slumber",
     "date": "Jun, 03 2020"
   },
   {
     "id": 4,
-    "tittle": "We Need to Follow John Lewis’ Example and Fight for Our Democracy",
+    "title": "We Need to Follow John Lewis’ Example and Fight for Our Democracy",
     "img": "/assets/john-lewi.jfif",
     "shortDescription": "“Now is the time for the U.S. Senate to do the right thing…Future generations are counting on us.”",
     "date": "Jun, 03 2020"
   },
   {
     "id": 5,
-    "tittle": "If You Do One Thing Today, Let It Be Getting New Lotion",
+    "title": "If You Do One Thing Today, Let It Be Getting New Lotion",
     "img": "assets/lotion.jpeg",
     "shortDescription": "Lotion is a small thing, but it makes a big impact",
     "date": "Jun, 03 2020",
@@ -39,7 +39,7 @@
   },
   {
     "id": 6,
-    "tittle": "Why is Empathy So Hard?",
+    "title": "Why is Empathy So Hard?",
     "img": "assets/emphaty.jpeg",
     "shortDescription": "Psychologists explain why people don’t want to care, while those most vulnerable to Covid plea that we would",
     "date": "Jun, 03 2020"

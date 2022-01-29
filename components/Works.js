@@ -30,7 +30,7 @@ export default function Works() {
   ]);
 
   return (
-    <section className="min-h-max relative">
+    <section id="works" className="min-h-max relative">
       <div className="container mx-auto">
         <div className="min-h-max">
           <h2 className="text-red-700 font-semibold text-center text-lg">

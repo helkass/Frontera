@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="container mx-auto relative">
+    <section id="contact" className="container mx-auto relative">
       <div className="mx-4 sm:mx-0 border-2 border-red-700 pt-12">
         <div className="uppercase text-2xl bg-black p-3 absolute -top-7 left-16">
           <p>contact me</p>

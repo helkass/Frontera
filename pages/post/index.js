@@ -1,4 +1,3 @@
-import { Categories } from "../../components/post/postCategories";
 import { Content } from "../../components/post/postContent";
 import Card from "../../components/post/postCard";
 // import { Layout } from "../../components/post/postLayout";
@@ -12,7 +11,6 @@ export default function Post() {
       <Head>
         <title>Post &ndash; Frontera</title>
       </Head>
-      <Categories />
       <Content />
       <Card />
       <Footer />

@@ -27,7 +27,7 @@ export default function Blog() {
   ]);
 
   return (
-    <section className="container mx-auto min-h-max my-24">
+    <section id="blog" className="container mx-auto min-h-max my-24">
       <div className="text-center my-9 text-xl text-red-700 font-semibold">
         <p>My Blog</p>
       </div>

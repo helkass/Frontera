@@ -23,9 +23,7 @@ export default function Card() {
             <div className="lg:mt-4 md:mt-3">
               <Link href="/post/1">
                 <a>
-                  <tittle className="font-bold text-xl mt-5">
-                    {post.tittle}
-                  </tittle>
+                  <p className="font-bold text-xl mt-5">{post.title}</p>
                 </a>
               </Link>
               <p className="opacity-50 font-bold mb-3">

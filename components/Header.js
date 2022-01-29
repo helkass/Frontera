@@ -50,7 +50,7 @@ export default function Header() {
           <ul className="flex flex-col mt-4 text-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li className="hover:scale-150">
               <a
-                href="#"
+                href="/"
                 className="block py-2 lg:pr-4 md:pr-2 lg:pl-3 md:pl-1"
                 aria-current="page"
               >
